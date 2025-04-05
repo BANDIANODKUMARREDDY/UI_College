@@ -15,10 +15,15 @@ colleges = [
     ("Saveetha", "saveetha"),
     ("SRM", "SRM"),
     ("SRMC", "SRMC"),
-    ("Veltech", "Veltech")
+    ("Veltech", "Veltech"),
+    ("Bharath", "bharath"),
+    ("SAII", "SAII"),
+    ("SAI", "sai"),
+    ("Thanksha", "thanksha"),
+    ("SCS", "scs")
 ]
 
-# 3 buttons in a row
+# Display buttons in rows of 3
 cols = st.columns(3)
 
 for index, (label, filename) in enumerate(colleges):
